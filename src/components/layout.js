@@ -11,8 +11,11 @@ const Layout = ({ children }) => {
       <Header />
       <div className="lg:flex-1 lg:overflow-scroll">
         <main>
-          {children.map(child => (
-            <div className="p-20 lg:p-12">{child}</div>
+          {children.map((child, index) => (
+            <div key={`section${index}`}>
+              {child}
+              <hr className="border-t" />
+            </div>
           ))}
         </main>
       </div>

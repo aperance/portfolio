@@ -41,3 +41,17 @@ p {
 a {
   @apply text-blue-600;
 }
+
+.section {
+  @apply min-h-screen;
+  @apply flex;
+  @apply items-center;
+  @apply px-3;
+  @apply py-20;
+}
+
+@screen md {
+  .section {
+    @apply p-12;
+  }
+}

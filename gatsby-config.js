@@ -19,6 +19,7 @@ module.exports = {
         }
       }
     },
+    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

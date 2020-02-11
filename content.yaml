@@ -53,7 +53,7 @@ projects:
       - title: GitHub
         path: https://github.com/aperance/life
       - title: Live Demo
-        path: https://github.com/aperance/life
+        path: https://github.com/aperance/life2
   - title: QA Lab Monitor
     description:
       Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
@@ -67,9 +67,9 @@ projects:
     technologies: React, Redux, Node.js, Express, WebSockets, MaterialUI CSS, Webpack
     links:
       - title: GitHub (Frontend)
-        path: https://github.com/aperance/life
+        path: https://github.com/aperance/life3
       - title: GitHub (Backend)
-        path: https://github.com/aperance/life
+        path: https://github.com/aperance/life4
 
 experience:
   - title: Senior Software Quality Assurance Engineer
