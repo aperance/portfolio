@@ -6,7 +6,7 @@ const { firstName, lastName, address, email, description } = data.about;
 const About = () => {
   return (
     <div>
-      <h1>
+      <h1 className="font-saira">
         {firstName} {lastName}
       </h1>
       <h4>
