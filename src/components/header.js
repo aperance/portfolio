@@ -20,10 +20,7 @@ const closeIconPath = (
 const Header = () => {
   const [isDrawerOpen, setDrawerOpen] = useState(false);
   return (
-    <header
-      className="fixed lg:static w-full lg:w-64 px-4 py-2"
-      style={{ backgroundColor: "#bd5d38" }}
-    >
+    <header className="fixed lg:static bg-impact-color w-full lg:w-64 px-4 py-2">
       <div className="lg:hidden flex items-center justify-end">
         <div>
           <button

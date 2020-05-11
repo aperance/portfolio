@@ -4,10 +4,10 @@ import data from "../../content.yaml";
 const Projects = () => {
   return (
     <div id="projects" className="section">
-      <div>
-        <h2>Projects</h2>
-        {data.projects.map(({ title, description, technologies, links }) => (
-          <div key={title}>
+      <h2>Projects</h2>
+      {data.projects.map(({ title, description, technologies, links }) => (
+        <div key={title} className="mb-12 flex justify-between">
+          <div>
             <h3>{title}</h3>
             <p>{description}</p>
             <p>{technologies}</p>
@@ -17,8 +17,9 @@ const Projects = () => {
               </div>
             ))}
           </div>
-        ))}
-      </div>
+          <span className="flex-shrink-0 w-64 text-impact-color text-right"></span>
+        </div>
+      ))}
     </div>
   );
 };
