@@ -11,15 +11,24 @@ module.exports = {
         postCssPlugins: [require("tailwindcss")]
       }
     },
+    // {
+    //   resolve: "gatsby-plugin-web-font-loader",
+    //   options: {
+    //     google: {
+    //       families: ["Saira Extra Condensed"]
+    //     }
+    //   }
+    // },
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        google: {
-          families: ["Saira Extra Condensed"]
-        }
+        fonts: [
+          {
+            family: "Saira Extra Condensed"
+          }
+        ]
       }
-    },
-    `gatsby-plugin-smoothscroll`,
+    }`gatsby-plugin-smoothscroll`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
