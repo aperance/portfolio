@@ -49,6 +49,14 @@ a {
   @apply text-impact-color;
 }
 
+svg {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
 .section {
   max-width: 75rem;
   @apply min-h-screen;
