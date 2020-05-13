@@ -6,7 +6,7 @@ const Projects = () => {
     <div id="projects" className="section">
       <h2>Projects</h2>
       {data.projects.map(({ title, description, technologies, links }) => (
-        <div key={title} className="mb-12 flex justify-between">
+        <div key={title} className="section-flex">
           <div>
             <h3>{title}</h3>
             <p>{description}</p>
@@ -17,7 +17,7 @@ const Projects = () => {
               </div>
             ))}
           </div>
-          <span className="flex-shrink-0 w-64 text-impact-color text-right"></span>
+          <span></span>
         </div>
       ))}
     </div>

@@ -59,9 +59,29 @@ a {
   @apply py-20;
 }
 
+.section-flex {
+  @apply mb-12;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between;
+}
+
+.section-flex > span {
+  @apply flex-shrink-0;
+  @apply w-64;
+  @apply text-impact-color;
+  @apply text-left;
+}
+
 @screen md {
   .section {
     @apply p-12;
+  }
+  .section-flex {
+    @apply flex-row;
+  }
+  .section-flex > span {
+    @apply text-right;
   }
 }
 
