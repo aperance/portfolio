@@ -19,36 +19,20 @@ skills:
   languages:
     proficient: JavaScript, TypeScript, HTML\CSS
     limited: Rust, Go, C
-  tools: React, Redux, Gatsby.js, Node.js, Express, Babel, Webpack, WebAssembly, Jest, Bootstrap, TailwindCSS, Git
+  tools: React, Redux, RxJS, Gatsby.js, Node.js, Express, Babel, Webpack, WebAssembly, Jest, Bootstrap, TailwindCSS, Git
   deployment: AWS, Digital Ocean, Netlify, Docker
   databases: SQL, Redis, DynamoDB, MongoDB
 
 projects:
   - title: Portfolio Site
-    description:
-      Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-      Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-      Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-      Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-      Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-      Such treat what a nice floof super chub such treat, smol thicc.
-      Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-      What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
+    description: This very site. Based on an publicly avaiable bootstrap theme but rewritten and customized using Gatsby.js and TailwindsCSS.
     technologies: Gatsby.js, TailwindCSS
     links:
       - title: GitHub
         path: https://github.com/aperance/portfolio
   - title: Conway's Game of Life
-    description:
-      Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-      Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-      Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-      Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-      Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-      Such treat what a nice floof super chub such treat, smol thicc.
-      Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-      What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
-    technologies: JS (Vanilla), HTML\CSS, WebAssembly, Rust, Web Workers, Webpack
+    description: An implementation of Conway's Game of Life written in JavaScript and Rust (WebAssembly).
+    technologies: JS (Vanilla), RxJS, HTML\CSS, WebAssembly, Rust, Web Workers, Webpack
     links:
       - title: GitHub
         path: https://github.com/aperance/life
@@ -56,14 +40,10 @@ projects:
         path: https://github.com/aperance/life2
   - title: QA Lab Monitor
     description:
-      Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-      Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-      Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-      Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-      Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-      Such treat what a nice floof super chub such treat, smol thicc.
-      Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-      What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
+      A utility I created to assist my job QA testing embedded devices.
+      The backend is a Node.js/Express server that contiuously polls multiple embedded devices and requests their current state using a provided api.
+      The frontend is a React/Redux application with a dashboard interface displaying all active devices and their current states.
+      The frontend receives updates in real time via a WebSockets connection.
     technologies: React, Redux, Node.js, Express, WebSockets, MaterialUI CSS, Webpack
     links:
       - title: GitHub (Frontend)
@@ -76,28 +56,12 @@ experience:
     company: Scientific Games
     city: Las Vegas, Nevada
     timeframe: May 2012 - Present
-    description:
-      Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-      Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-      Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-      Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-      Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-      Such treat what a nice floof super chub such treat, smol thicc.
-      Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-      What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
+    description: Performed quality assurance of casino industry software for player facing embedded devices and associated backend servers.
   - title: Test Engineer
     company: Gaming Laboratories Internalional
     city: Las Vegas, Nevada
     timeframe: August 2007 - May 2012
-    description:
-      Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-      Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-      Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-      Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-      Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-      Such treat what a nice floof super chub such treat, smol thicc.
-      Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-      What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
+    description: Performed third party quality assurance of casino industry hardware and software and ensured compliance with regulations for various jurisdictions.
 
 education:
   school: State University of New York at Buffalo
