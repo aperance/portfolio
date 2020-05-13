@@ -16,10 +16,10 @@ const About = () => {
       </h4>
       <p>{description}</p>
       <div>
-        <a href="#" className="icon">
+        <a href="#" className="icon" aria-label="linked in">
           <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
-        <a href="#" className="icon">
+        <a href="#" className="icon" aria-label="github">
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </div>

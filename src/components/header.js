@@ -26,6 +26,7 @@ const Header = () => {
           <button
             type="button"
             className="block text-gray-300 hover:text-white focus:text-white focus:outline-none"
+            aria-label="menu"
             onClick={() => setDrawerOpen(!isDrawerOpen)}
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
