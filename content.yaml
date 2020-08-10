@@ -4,14 +4,6 @@ about:
   address: Las Vegas, Nevada
   email: aperance@gmail.com
   description:
-    Doggo ipsum borkdrive much ruin diet you are doing me the shock the neighborhood pupper doggorino length boy many pats, boofers heckin shooberino wrinkler.
-    Very good spot very jealous pupper very hand that feed shibe smol, shoob.
-    Long bois pupper doggo you are doin me a concern big ol yapper, smol boof most angery pupper I have ever seen puggorino.
-    Mlem blep wow very biscit dat tungg tho wow very biscit, thicc ur givin me a spook.
-    Many pats heckin you are doing me the shock corgo ur givin me a spook very hand that feed shibe shooberino, big ol pupper doge pats borkdrive.
-    Such treat what a nice floof super chub such treat, smol thicc.
-    Puggorino very good spot most angery pupper I have ever seen you are doing me the shock big ol pupper porgo corgo shoober, heckin good boys lotsa pats noodle horse very taste wow thicc.
-    What a nice floof long doggo blep length boy borking doggo, much ruin diet floofs borkf.
   github: https://github.com/aperance
   linkedin: https://github.com/aperance
 
@@ -24,12 +16,6 @@ skills:
   databases: SQL, Redis, DynamoDB, MongoDB
 
 projects:
-  - title: Portfolio Site
-    description: This very site. Based on an publicly avaiable bootstrap theme but rewritten and customized using Gatsby.js and TailwindsCSS.
-    technologies: Gatsby.js, TailwindCSS
-    links:
-      - title: GitHub
-        path: https://github.com/aperance/portfolio
   - title: Conway's Game of Life
     description: An implementation of Conway's Game of Life written in JavaScript and Rust (WebAssembly).
     technologies: JS (Vanilla), RxJS, HTML\CSS, WebAssembly, Rust, Web Workers, Webpack
@@ -37,19 +23,26 @@ projects:
       - title: GitHub
         path: https://github.com/aperance/life
       - title: Live Demo
-        path: https://github.com/aperance/life2
+        path: https://life.aperance.dev
   - title: QA Lab Monitor
-    description:
-      A utility I created to assist my job QA testing embedded devices.
+    description: A utility created to assist in QA testing embedded devices.
       The backend is a Node.js/Express server that contiuously polls multiple embedded devices and requests their current state using a provided api.
       The frontend is a React/Redux application with a dashboard interface displaying all active devices and their current states.
       The frontend receives updates in real time via a WebSockets connection.
     technologies: React, Redux, Node.js, Express, WebSockets, MaterialUI CSS, Webpack
     links:
       - title: GitHub (Frontend)
-        path: https://github.com/aperance/life3
+        path: https://github.com/aperance/lab-monitor-client
       - title: GitHub (Backend)
-        path: https://github.com/aperance/life4
+        path: https://github.com/aperance/lab-monitor-server
+      - title: Live Demo
+        path: https://qa.aperance.dev
+  - title: Portfolio Site
+    description: This very site. Based on an publicly avaiable bootstrap theme but rewritten and customized using Gatsby.js and TailwindsCSS.
+    technologies: Gatsby.js, TailwindCSS
+    links:
+      - title: GitHub
+        path: https://github.com/aperance/portfolio
 
 experience:
   - title: Senior Software Quality Assurance Engineer
