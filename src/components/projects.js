@@ -1,11 +1,11 @@
 import React from "react";
-import data from "../../content.yaml";
+import { projects } from "../../content.yaml";
 
 const Projects = () => {
   return (
     <div id="projects" className="section">
       <h2>Projects</h2>
-      {data.projects.map(({ title, description, technologies, links }) => (
+      {projects.map(({ title, description, technologies, links }) => (
         <div key={title} className="section-flex">
           <div>
             <h3>{title}</h3>

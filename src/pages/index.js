@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <Helmet>
       <html lang="en" />
-      <title>William Aperance - Portfolio</title>
+      <title>William Aperance</title>
     </Helmet>
     <About />
     <Skills />

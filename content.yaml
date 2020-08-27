@@ -8,12 +8,8 @@ about:
   linkedin: https://github.com/aperance
 
 skills:
-  languages:
-    proficient: JavaScript, TypeScript, HTML\CSS
-    limited: Rust, Go, C
-  tools: React, Redux, RxJS, Gatsby.js, Node.js, Express, Babel, Webpack, WebAssembly, Jest, Bootstrap, TailwindCSS, Git
-  deployment: AWS, Digital Ocean, Netlify, Docker
-  databases: SQL, Redis, DynamoDB, MongoDB
+  proficient: JavaScript, TypeScript, HTML\CSS, React, Redux, Node.js\Express, RxJS
+  familiar: Rust, Go, C, Git, Docker, WebAssembly, Webpack, SQL, Redis, MongoDB, AWS
 
 projects:
   - title: Conway's Game of Life
@@ -50,14 +46,14 @@ experience:
     city: Las Vegas, Nevada
     timeframe: May 2012 - Present
     description: Performed quality assurance of casino industry software for player facing embedded devices and associated backend servers.
-  - title: Test Engineer
-    company: Gaming Laboratories Internalional
-    city: Las Vegas, Nevada
-    timeframe: August 2007 - May 2012
-    description: Performed third party quality assurance of casino industry hardware and software and ensured compliance with regulations for various jurisdictions.
+  # - title: Test Engineer
+  #   company: Gaming Laboratories Internalional
+  #   city: Las Vegas, Nevada
+  #   timeframe: August 2007 - May 2012
+  #   description: Performed third party quality assurance of casino industry hardware and software and ensured compliance with regulations for various jurisdictions.
 
 education:
   school: State University of New York at Buffalo
   degree: Bachelor of Science
   major: Electrical Engineering
-  timeframe: May 2007
+  timeframe:

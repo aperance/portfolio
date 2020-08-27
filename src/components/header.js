@@ -41,7 +41,7 @@ const Header = () => {
           `lg:flex lg:flex-col lg:h-screen lg:justify-center`
         }
       >
-        {sectionIDs.map(id => (
+        {sectionIDs.map((id) => (
           <a
             key={id}
             className="block text-white uppercase font-bold opacity-50 tracking-wider p-2 lg:text-center cursor-pointer"

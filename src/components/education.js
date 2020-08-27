@@ -1,7 +1,5 @@
 import React from "react";
-import data from "../../content.yaml";
-
-const { school, degree, major, timeframe } = data.education;
+import { education } from "../../content.yaml";
 
 const Education = () => {
   return (
@@ -9,12 +7,12 @@ const Education = () => {
       <h2>Education</h2>
       <div className="section-flex">
         <div>
-          <h3>{school}</h3>
+          <h3>{education.school}</h3>
           <h4>
-            {degree} · {major}
+            {education.degree} · {education.major}
           </h4>
         </div>
-        <span>{timeframe}</span>
+        <span>{education.timeframe}</span>
       </div>
     </div>
   );
