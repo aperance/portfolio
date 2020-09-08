@@ -3,29 +3,34 @@ about:
   lastName: Aperance
   address: Las Vegas, Nevada
   email: aperance@gmail.com
-  description:
+  description: Current quality assurance engineer looking to move into web development. Self taught full stack developer experienced in React, Redux, and Node.js.
   github: https://github.com/aperance
-  linkedin: https://github.com/aperance
+  linkedin: https://linkedin.com/in/aperance
 
 skills:
-  proficient: JavaScript, TypeScript, HTML\CSS, React, Redux, Node.js\Express, RxJS
-  familiar: Rust, Go, C, Git, Docker, WebAssembly, Webpack, SQL, Redis, MongoDB, AWS
+  languages: Javascript, Typescript, HTML, CSS, SQL (some knowledge of Go, Rust, C)
+  frameworks: React, Redux, Node.js, Express, RxJS, Bootstrap, MaterialUI, TailwindsCSS, Jest
+  tools: Git, Webpack, Babel, Docker, Redis, AWS
 
 projects:
   - title: Conway's Game of Life
-    description: An implementation of Conway's Game of Life written in JavaScript and Rust (WebAssembly).
-    technologies: JS (Vanilla), RxJS, HTML\CSS, WebAssembly, Rust, Web Workers, Webpack
+    description: |
+      A web based implementation of Conway's Game of Life written in JavaScript and Rust.
+      The game engine is a web worker written in Rust (compiled to WebAssembly).
+      The visual elements of the game were created using HTML5 Canvas and vanilla Javascript.
+      RxJS is used to manage user interface events.
     links:
       - title: GitHub
         path: https://github.com/aperance/life
       - title: Live Demo
         path: https://life.aperance.dev
   - title: QA Lab Monitor
-    description: A utility created to assist in QA testing embedded devices.
-      The backend is a Node.js/Express server that contiuously polls multiple embedded devices and requests their current state using a provided api.
-      The frontend is a React/Redux application with a dashboard interface displaying all active devices and their current states.
-      The frontend receives updates in real time via a WebSockets connection.
-    technologies: React, Redux, Node.js, Express, WebSockets, MaterialUI CSS, Webpack
+    description: |
+      A utility that monitors the state of multiple embedded devices and displays the consolidated data to the user through a dashboard interface.
+      Created to help me quickly troubleshoot issues as part of my job QA testing embedded devices.
+      The backend is a Node.js server that continuously polls multiple embedded devices and requests their current state.
+      The frontend is a React\Redux application which displays the state of all monitored devices to the user.
+      Frontend received updated data in real time over a Websocket connection.
     links:
       - title: GitHub (Frontend)
         path: https://github.com/aperance/lab-monitor-client
@@ -35,7 +40,6 @@ projects:
         path: https://qa.aperance.dev
   - title: Portfolio Site
     description: This very site. Based on an publicly avaiable bootstrap theme but rewritten and customized using Gatsby.js and TailwindsCSS.
-    technologies: Gatsby.js, TailwindCSS
     links:
       - title: GitHub
         path: https://github.com/aperance/portfolio
@@ -45,7 +49,9 @@ experience:
     company: Scientific Games
     city: Las Vegas, Nevada
     timeframe: May 2012 - Present
-    description: Performed quality assurance of casino industry software for player facing embedded devices and associated backend servers.
+    description: |
+      Performed quality assurance of casino industry software for player facing embedded devices and associated servers.
+      Utilized Microsoft SQL Server, Wireshark packet analyzer, and Ranorex.
   # - title: Test Engineer
   #   company: Gaming Laboratories Internalional
   #   city: Las Vegas, Nevada

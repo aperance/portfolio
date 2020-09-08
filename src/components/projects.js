@@ -10,9 +10,9 @@ const Projects = () => {
           <div>
             <h3>{title}</h3>
             <p>{description}</p>
-            <p>
+            {/* <p>
               <b>Technologies used:</b> {technologies}
-            </p>
+            </p> */}
             {links.map(({ title, path }) => (
               <div key={path}>
                 <a href={path}>{title}</a>
