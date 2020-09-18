@@ -3,20 +3,20 @@ about:
   lastName: Aperance
   address: Las Vegas, Nevada
   email: aperance@gmail.com
-  description: Current quality assurance engineer looking to move into web development. Self taught full stack developer experienced in React, Redux, and Node.js.
+  description: Entry level full stack developer skilled in Node.js, React, and Redux.
   github: https://github.com/aperance
   linkedin: https://linkedin.com/in/aperance
 
 skills:
-  languages: Javascript, Typescript, HTML, CSS, SQL (some knowledge of Go, Rust, C)
-  frameworks: React, Redux, Node.js, Express, RxJS, Bootstrap, MaterialUI, TailwindsCSS, Jest
-  tools: Git, Webpack, Babel, Docker, Redis, AWS
+  languages: Javascript, Typescript, HTML, CSS
+  frameworks: React, Redux, Node.js, Express, RxJS, Bootstrap, MaterialUI, TailwindsCSS
+  tools: Git, Webpack, Babel, Jest, Docker, SQL, Redis, AWS
 
 projects:
   - title: Conway's Game of Life
     description: |
       A web based implementation of Conway's Game of Life written in JavaScript and Rust.
-      The game engine is a web worker written in Rust (compiled to WebAssembly).
+      The core game logic is handled by a web worker written in Rust and compiled to WebAssembly.
       The visual elements of the game were created using HTML5 Canvas and vanilla Javascript.
       RxJS is used to manage user interface events.
     links:
@@ -52,11 +52,11 @@ experience:
     description: |
       Performed quality assurance of casino industry software for player facing embedded devices and associated servers.
       Utilized Microsoft SQL Server, Wireshark packet analyzer, and Ranorex.
-  # - title: Test Engineer
-  #   company: Gaming Laboratories Internalional
-  #   city: Las Vegas, Nevada
-  #   timeframe: August 2007 - May 2012
-  #   description: Performed third party quality assurance of casino industry hardware and software and ensured compliance with regulations for various jurisdictions.
+  - title: Test Engineer
+    company: Gaming Laboratories Internalional
+    city: Las Vegas, Nevada
+    timeframe: August 2007 - May 2012
+    description: Performed third party quality assurance of casino industry hardware and software and ensured compliance with regulations for various jurisdictions.
 
 education:
   school: State University of New York at Buffalo
