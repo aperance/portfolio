@@ -9,7 +9,7 @@ h4 {
   @apply text-default-color;
   @apply font-saira;
   @apply uppercase;
-  @apply font-bold;
+  @apply font-semibold;
   @apply leading-none;
 }
 
