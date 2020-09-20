@@ -41,6 +41,7 @@ module.exports = {
           {
             family: "Saira Extra Condensed",
             variants: [`700`],
+            fontDisplay: "block",
           },
         ],
       },
