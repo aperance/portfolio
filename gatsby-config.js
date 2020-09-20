@@ -37,7 +37,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [{ family: "Saira Extra Condensed" }],
+        fonts: [
+          {
+            family: "Saira Extra Condensed",
+            variants: [`400`, `500`, `600`, `700`],
+          },
+        ],
       },
     },
   ],
