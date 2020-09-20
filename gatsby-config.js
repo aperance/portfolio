@@ -40,7 +40,7 @@ module.exports = {
         fonts: [
           {
             family: "Saira Extra Condensed",
-            variants: [`400`, `500`, `600`, `700`],
+            variants: [`700`],
           },
         ],
       },
